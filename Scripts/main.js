@@ -23,6 +23,11 @@ function result() {
   let yItem=randomValueFromArray(insertY);
   let zItem=randomValueFromArray(insertZ);
   
+  if(newStory.indexOf(:insertx:)!==-1){
+    :insertx:=xItem;
+  }
+     
+  
   if(customName.value !== '') {
     const name = customName.value;
 
