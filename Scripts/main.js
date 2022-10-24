@@ -26,7 +26,15 @@ function result() {
   if(newStory.indexOf(:insertx:)!==-1){
     :insertx:=xItem;
   }
-     
+  
+  if(newStory.indexOf(:inserty:)!==-1){
+    :inserty:=yItem;
+  }
+  
+  if(newStory.indexOf(:insertz:)!==-1){
+    :insertz:=zItem;
+  }  
+  
   
   if(customName.value !== '') {
     const name = customName.value;
