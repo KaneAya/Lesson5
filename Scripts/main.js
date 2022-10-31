@@ -23,17 +23,7 @@ function result() {
   let yItem=randomValueFromArray(insertY);
   let zItem=randomValueFromArray(insertZ);
   
-  if(newStory.indexOf(:insertx:)!==-1){
-    :insertx:=xItem;
-  }
-  
-  if(newStory.indexOf(:inserty:)!==-1){
-    :inserty:=yItem;
-  }
-  
-  if(newStory.indexOf(:insertz:)!==-1){
-    :insertz:=zItem;
-  }  
+  newStory=newStory.replace(":insertX:",xItem);
   
   
   if(customName.value !== '') {
