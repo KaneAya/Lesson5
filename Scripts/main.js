@@ -24,6 +24,8 @@ function result() {
   let zItem=randomValueFromArray(insertZ);
   
   newStory=newStory.replaceAll(":insertX:",xItem);
+  newStory=newStory.replaceAll(":insertY:",yItem);
+  newStory=newStory.replaceAll(":insertZ:",zItem);
   
   
   if(customName.value !== '') {
